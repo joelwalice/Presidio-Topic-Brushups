@@ -1,4 +1,4 @@
-const apiKey = "2292237f3f5dbc6072958c92d04b0699";
+const apiKey = "###############"; // I have removed my apiKey
 
 function getOutcome() {
   const p = document.getElementById("output");
