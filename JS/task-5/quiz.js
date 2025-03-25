@@ -17,7 +17,7 @@ fetch("question.json")
   .catch((error) => console.error("Error loading questions:", error));
 
 function loadQuestion() {
-  if (index < questionArray.length) {
+  if (index < questionArray.length-1) {
     const { question, answers, correctAnswer } = questionArray[index];
     questions.innerText = question;
     optionsVal.innerHTML = "";
@@ -39,7 +39,11 @@ function loadQuestion() {
 
       optionsVal.append(option, label, br);
     });
-  } else {
+  } 
+  else if(index == questionArray.length -1){
+    document.getElementById("next").innerHTML = "Submit";
+  }
+  else {
     displayScore();
   }
 }
