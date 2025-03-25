@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 30, 30);
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    min-width: 400px;
+    min-height : 300px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.items{
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+}
+
+label{
+    padding: 10px 45px;
+    background-color: rgb(57, 56, 56);
+    color: white;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+input{
+    display: none;
+}
+input:checked + label{
+    background-color: yellow ;
+    color: black;
+    height: 100px;
+}
+#textHome, #textBlog, #textContact, #textAbout{
+    display: none;
+}
+#Home:checked~#textHome, #Blog:checked~#textBlog, #Contact:checked~#textContact, #About:checked~#textAbout{
+    display: block;
+    position: absolute;    
+    transition: 0.3s ease;
+    left: 5px;
+}
