@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="ecomm.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>eCommerce Store</h1>
+        <div id="cart-summary">
+            <span id="cart-count">0</span> items in cart
+        </div>
+        <div id="search">
+            <input type="text" id="searchText" placeholder="Enter the Data..." >
+            <button onclick="searchItem();">Search</button>
+        </div>
+    </header>
+    
+    <section id="product-list">
+    </section>
+    
+    <footer>
+        <div id="cart-button">
+            <button onclick="toggleCart()">View Cart</button>
+        </div>
+    </footer>
+    
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <h2>Your Cart</h2>
+            <ul id="cart-items">
+                
+            </ul>
+            <div id="cart-total-summary">
+                <p>Subtotal: &#8377;<span id="subtotal">0.00</span></p>
+                <p>Tax (10%): &#8377;<span id="tax">0.00</span></p>
+                <p>Discount: &#8377;<span id="discount">0.00</span></p>
+                <p>Total: &#8377;<span id="total">0.00</span></p>
+            </div>
+            <button id="clear" onclick="clearCart()">Clear Cart</button>
+            <button id="checkout" onclick="checkout()">Checkout</button>
+            <button id="close" onclick="toggleCart()">Close</button>
+        </div>
+    </div>
+</body>
+</html>
