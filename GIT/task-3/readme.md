@@ -29,9 +29,7 @@ git status
 ![Before-Reset](images/before-reset.png)
 
 ### After Reset
-![After-Reset](images/after-reset.png)
-
-- **Note :** The commit history is rewritten, so it's not safe for shared repositories.
+![After-Reset](images/after-revert.png)
 
 ### `git revert <commit>`
 
@@ -48,4 +46,4 @@ git status
 git revert HEAD
 ```
 
-![Revert](revert.png)
+![Revert](images/revert.png)
