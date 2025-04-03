@@ -14,21 +14,17 @@
 ```sh
 git status
 ```
-![Status before adding gitignore](status-before.png)
 
 
 ### `.gitignore`
 - A .gitignore file is a configuration file used in Git to specify which files and directories should be ignored by Git. 
 - This prevents unnecessary or sensitive files (such as logs, temporary files, environment variables, and build artifacts) from being tracked in a repository.
 
-#### `git status` before adding gitignore: 
-![Status before adding gitignore](status-before.png)
-
 #### .gitignore file: 
 ![gitignore file](gitignore.png)
 
 #### `git status` after adding gitignore: 
-![Status before adding gitignore](status-after.png)
+![Status before adding gitignore](status.png)
 
 
 ###### After using `.gitignore`, running `git status` does not display files or folders that match the patterns in `.gitignore`, confirming they are ignored.
