@@ -29,7 +29,7 @@ git status
 ![Before-Reset](images/before-reset.png)
 
 ### After Reset
-![After-Reset](images/after-revert.png)
+![After-Reset](images/after-reset.png)
 
 ### `git revert <commit>`
 
