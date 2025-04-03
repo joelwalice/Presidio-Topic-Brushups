@@ -99,5 +99,5 @@ git checkout -b branch-name
 ```sh
 git merge branch-name
 ```
-![merge](merge.png)
+![merge](images/merge.png)
 
