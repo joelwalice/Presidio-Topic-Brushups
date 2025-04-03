@@ -36,7 +36,7 @@ git add .
 git commit -m "Initial commit with file1.txt and file2.txt"
 ```
 
-![commit](commit.png)
+![commit](images/commit.png)
 
 
 
@@ -49,7 +49,7 @@ git commit -m "Initial commit with file1.txt and file2.txt"
 git branch
 ```
 
-![branch](branch.png)
+![branch](images/branch.png)
 
 
 #### `git branch branch-name`
@@ -57,6 +57,8 @@ git branch
 ```sh
 git branch branch-name
 ```
+
+![alt text](images/branchCreate.png)
 
 #### `git branch -m new-branch-name`
 - Renames the current branch.
@@ -79,7 +81,7 @@ git branch -d branch-name
 git checkout branch-name
 ```
 
-![checkout](checkout.png)
+![checkout](images/checkout.png)
 
 
 #### `git checkout -b branch-name`
