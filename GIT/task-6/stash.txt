@@ -1,2 +1,3 @@
 Added 1st line in first commit
 Added 2nd line in second commit
+Added 3rd line in third commit
