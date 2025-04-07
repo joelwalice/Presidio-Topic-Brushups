@@ -1,1 +1,3 @@
 Adding the First Line in the first commit
+Adding the Second Line in the first commit
+Adding the Third Line in the Third commit
