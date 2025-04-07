@@ -1,1 +1,2 @@
 Add word Hai to the second-branch
+Add word Hello to the master
