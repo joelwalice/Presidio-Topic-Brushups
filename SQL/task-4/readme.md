@@ -43,4 +43,8 @@ SELECT Customers.pid, pname from Products LEFT JOIN Customers ON Products.pid = 
 
 #### RIGHT JOIN
 
+```sh
+SELECT Customers.pid, pname from Products RIGHT JOIN Customers ON Products.pid = Customers.pid;
+```
+
 ![Right Join](images/right-join.png)
